@@ -18,8 +18,6 @@ body {
 }
 
 body {
-  /* background: url(../images/shop1_103_top_452202.jpg) no-repeat;
-  background-size: 100% 100%; */
   background-image: linear-gradient(to bottom, white, gray 60%, black);
   /* 배경 크기에 cover를 줄 경우 이미지의 양쪽,
     위 아래를 적절히 조정하여 대상 박스를 꽉 채움 */
@@ -166,12 +164,6 @@ h1.logo {
   line-height: 30px;
 }
 
-/* 상위메뉴 li에 마우스 오버시 서브메뉴 보이기 */
-/* 첫번째 상위메뉴 li - 메뉴 개수 3개 -> 30px*3=90px + 20px(여유공간) */
-/* .gnb > ul > li:nth-child(1):hover .smenu,
-.gnb > ul > li:nth-child(1):hover::after {
-  height: 110px;
-}
 /* 세번쨰 상위메뉴 li - 메뉴 개수 4개-> 30px*4=120px + 20px(여유공간) */
 .gnb > ul > li:nth-child(3):hover .smenu,
 .gnb > ul > li:nth-child(3):hover::after {
@@ -182,14 +174,6 @@ h1.logo {
 .gnb > ul > li:nth-child(4):hover::after {
   height: 80px;
 }
-
-/* 상위메뉴 li에 마우스 오버시 서브메뉴 배경가상요소
-아래쪽 보더 만들기 */
-/* .gnb > ul > li:nth-child(1):hover::after,
-.gnb > ul > li:nth-child(3):hover::after,
-.gnb > ul > li:nth-child(4):hover::after {
-  border-bottom: 2px solid #ccc;
-} */ */
 
 /* JS없이 가상요소로 서브메뉴 전체 배경 만들기 */
 .gnb > ul > li::after {
@@ -234,17 +218,6 @@ h1.logo {
   /* height: 300px; */
   margin: 0 auto;
   /* 블록요소 가로중앙정렬 - 마영오*/
-  /* margin-top: 30%;
-    -> 가로크기에 따라 위치가 들쑥날쑥해서 사용안함 */
-
-  /* outline: 10px dotted blue; */
-  /* outline: 두께 종류 색상;
-    외곽선 - 다른요소에 영향없이 외곽선을 표시함
-    박스모델의 필수 요소가 아니다
-    요소를 표시할 때 사용(input요소에 많이 사용) */
-
-  /* overflow: hidden; */
-  /* float처리된 자식요소의 높이값 인식을 위함 */
 }
 
 /* 가상요소로 부모박스 clear:both 만들기 */
