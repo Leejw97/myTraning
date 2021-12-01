@@ -178,7 +178,7 @@ h1.tit {
     /* 부모자격 - 하위요소 */
     /* height: 788px; */
     /* 비율유지 설정을 위해 height를 주지 않는다 */
-    background: url(../images/bg.jpg) no-repeat;
+    background: url(../image/images/bg2.jpg) no-repeat;
     background-size: 100%;
     /* 배경이미지 가로를 기준으로 비율변경 */
 }
