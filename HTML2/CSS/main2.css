@@ -324,18 +324,7 @@ h1.tit {
     padding-left: 20px;
 }
 /* 하단로고 이미지 */
-#info img {
-    float:left;
-    /* 이미지는 왼쪽에 글자는 오른쪽으로 흐르게 */
-    margin-right: 20px;
-}
-/* 3-2. sns버튼 */
-.sns{
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    /* 부모는? #info */
-}
+
 /* sns li 박스 */
 .sns li {
     width: 34px;
@@ -349,28 +338,4 @@ h1.tit {
     filter: grayscale(100%);
 
     /* outline: 2px dotted lime; */
-}
-
-/* 마우스 오버시 컬러 */
-.sns li:hover {
-    filter:grayscale(0%);
-}
-/* 페이스북 */
-.sns li:first-child {
-    background-position: -510px -429px;
-}
-/* 페이스북 */
-.sns li:nth-child(2) {
-    background-position: -551px -429px;
-}
-/* 페이스북 */
-.sns li:last-child {
-    background-position: -593px -429px;
-}
-
-/* sns a요소 확장 */
-.sns a {
-    display: block;
-    width: 100%;
-    height: 100%;
 }
