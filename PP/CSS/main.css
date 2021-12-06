@@ -12,3 +12,8 @@
   outline: 1px solid
 }
 
+.cont1 {
+  background: url(../images/main.jpg) no-repeat;
+  padding: 0;
+  margin: 0 auto;
+}
