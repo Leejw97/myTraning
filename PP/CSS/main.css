@@ -12,8 +12,18 @@
   outline: 1px solid
 }
 
+.top{
+  background: url(../images/logo-main.gif)no-repeat;
+}
+
 .cont1 {
-  background: url(../images/main.jpg) no-repeat;
+  background: url(../images/main.jpg) center/cover no-repeat;
+  background-size: 100% 100%;
+  height: 630px;
   padding: 0;
   margin: 0 auto;
+}
+
+.cont2 {
+  
 }
