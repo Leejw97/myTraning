@@ -14,20 +14,39 @@
 
 .top {
   background: url(../images/logo-main.gif)no-repeat;
+  min-height: 350px;
 }
 
 .cont1 {
   background: url(../images/main.jpg) center/cover no-repeat;
   background-size: 100% 100%;
-  width: 1153px;
-  height: 558px;
   padding: 0;
   margin: 0 auto;
 }
 
-.cont2 {
 
-  background: url(../images/artist1.jpg) center/cover no-repeat;
+
+.cont2 {
+  height: 504px;
+  display: inline;
+}
+
+.cont2 li img{
   width: 306px;
   height: 360px;
 }
+
+.cont2 ul {
+  display: flex;
+  justify-content: space-between
+}
+
+
+/* background: url(../images/artist1.jpg) center/cover no-repeat;
+  width: 306px;
+  height: 360px;
+
+  background: url(../images/artist2.jpg) center/cover no-repeat;
+  width: 306px;
+  height: 360px; */
+
