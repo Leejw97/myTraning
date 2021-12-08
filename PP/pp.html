@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
     <meta charset="UTF-8">
@@ -8,18 +8,6 @@
     <link rel="stylesheet" href="CSS/main.css">
     <title>Document</title>
     <style>
-        html,
-        body,
-        h1,
-        h2 {
-            margin: 0;
-            padding: 0;
-        }
-
-        body * {
-            outline: 1px dashed rgb(158, 158, 158);
-        }
-
         .ibx {
             max-width: 1300px;
             margin: 0 auto;
@@ -37,17 +25,24 @@
             top: 60px;
             width: 275px;
             height: 320px;
+            /* box-sizing: border-box;
+            padding-right:20px;
+            left: 0; */
+            font-size: 12px;
             background-color: rgb(255, 181, 181);
+        }
+
+        #side ul{
+            padding: 0;
+        }
+
+        #side ul li{
+            padding-bottom: 10px;            
         }
 
         #cont {
             max-width: 1300px;
             padding-left: 275px;
-        }
-
-        #cont>* {
-            min-height: 400px;
-
         }
     </style>
 </head>
@@ -80,8 +75,21 @@
                 
         </div>
         <div id="cont">
-            <header class="top"></header>
-            <section class="cont1"></section>
+            <header class="top">
+                <li>
+                    <a href="#">
+                        <img src="./images/logo-main.gif" alt="홈화면">
+                    </a>
+                </li>
+            </header>
+            <section class="cont1">
+                <li>
+                    <a href="#">
+                        <img src="./images/main.jpg" alt="메인로고">
+                    </a>
+                </li>
+            </section>
+            <div class="a1"><h1>ARTIST</h1></div>
             <section class="cont2">
                 <ul class>
                     <li>
@@ -101,7 +109,25 @@
                     </li>
                 </ul>
             </section>
-            <section class="cont3"></section>
+            <section class="cont3">
+                <ul class>
+                    <li>
+                        <a href="#">
+                            <img src="./images/artist4.jpg" alt="이찬우">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/artist5.jpg" alt="이찬우">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/artist6.jpg" alt="이찬우">
+                        </a>
+                    </li>
+                </ul>
+            </section>
             <section class="cont4"></section>
         </div>
     </div>
