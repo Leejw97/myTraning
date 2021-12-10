@@ -37,15 +37,17 @@ h1 {
   font-size: 22px;
 }
 
-.cont2
+/* .cont2
 .cont3{
   height: 504px;
   display: inline;
-}
+} */
 
 .cont2 li,
 .cont3 li {
-  width: 30%
+  width: 32%;
+  margin-bottom: 80px;
+  
 }
 
 .cont2 li img,
@@ -58,6 +60,8 @@ h1 {
   display: flex;
   justify-content: space-between
 }
+
+
 
 
 
