@@ -6,62 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/main.css">
-    <title>Document</title>
-    <style>
-        .ibx {
-            max-width: 1300px;
-            margin: 0 auto;
-        }
-
-        .wrap {
-            max-width: 1657px;
-            margin: 0 auto;
-            padding: 0 40px;
-            box-sizing: border-box;
-        }
-
-        #side {
-            position: fixed;
-            top: 60px;
-            width: 275px;
-            /* height: 320px; */
-            font-size: 12px;
-            font-weight: bolder;
-            /* background-color: rgb(255, 181, 181); */
-        }
-
-        #side ul{
-            padding: 0;
-        }
-
-        #side ul li:first-child{
-            margin-bottom: 35px;
-        }
-
-        #side ul li:last-child{
-            margin-top: 50px;
-        }
-
-        #side ul li{
-            padding-bottom: 10px;       
-        }
-
-        #side ul li a{
-            color: black;            
-        }
-
-        #side ul li a:hover{
-            text-decoration: underline;      
-        }
-
-        #cont {
-            max-width: 1300px;
-            padding-left: 275px;
-        }
-    </style>
+    <link rel="stylesheet" href="CSS/media.css">
+    <script src="Js/media.js"></script>
+    <title>리움스토어</title>
 </head>
 
-<body>
+<body class="scbar">
+    <!-- <a class="ham" onclick="showMenu()">≡</a> -->
+    
     <div class="wrap">
         <div id="side">
             <ul>
@@ -88,11 +40,10 @@
         </div>
         <div id="cont">
             <header class="top">
-                <li>
+                <div class="ham" onclick="showMenu()">≡</div>
                     <a href="#">
                         <img src="./images/logo-main.gif" alt="홈화면">
                     </a>
-                </li>
             </header>
             <section class="cont1">
                 <li>
@@ -147,10 +98,11 @@
                     </li>
                 </ul>
             </section>
-            <section class="cont4"></section>
         </div>
     </div>
 
 </body>
 
 </html>
+
+<!-- 에이치 티 엠 엘 158 -->

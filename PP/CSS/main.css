@@ -1,6 +1,53 @@
 @charset "utf-8";
 @import url(./common.css);
 
+.ibx {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.wrap {
+  max-width: 1657px;
+  margin: 0 auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+#side {
+  position: fixed;
+  top: 60px;
+  width: 275px;
+  /* height: 320px; */
+  font-size: 12px;
+  font-weight: bolder;
+  /* background-color: rgb(255, 181, 181); */
+}
+
+#side ul li:first-child{
+  margin-bottom: 35px;
+}
+
+#side ul li:last-child{
+  margin-top: 50px;
+}
+
+#side ul li{
+  padding-bottom: 10px;       
+}
+
+#side ul li a{
+  color: black;            
+}
+
+#side ul li a:hover{
+  text-decoration: underline;      
+}
+
+#cont {
+  max-width: 1300px;
+  padding-left: 275px;
+}
+
 .smenu a {
   text-decoration: none;
 }
@@ -28,6 +75,8 @@
   margin: 0 auto;
   width: 100%;
 }
+
+
 
 .a1 {
   padding: 90px 0 20px;
@@ -62,10 +111,22 @@ h1 {
 }
 
 
+.scbar::-webkit-scrollbar {
+  /* 전체 스크롤바 크기변경 */
+  width: 5px;
+}
 
+.scbar::-webkit-scrollbar-thumb {
+  /* 스크롤바 */
+  background-color: #333;
+  border-radius: 10px;
+}
 
-
-
+.scbar::-webkit-scrollbar-track {
+  /* 스크롤바 트랙 */
+  background-color: #e0e0e0;
+  border-radius: 10px;
+}
 
 
 
@@ -76,3 +137,4 @@ h1 {
 /* flex-wrap: wrap;
 플렉스 줄바꿈
  */
+

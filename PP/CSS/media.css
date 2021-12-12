@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+
+/* 모바일 기분 960px 이하 시작 */
+@media only screen and (max-width:960px) {
+
+  .wrap {
+    padding: 0;
+  }
+
+  .top {
+    height: 140px;
+    text-align: center;
+  }
+
+  .top img {
+    height: 80px;
+    padding: 30px;
+  }
+
+  #cont {
+    padding-left: 0px;
+    width: 100%;
+  }
+
+  #side ul {
+    display: none;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+
+  .ham {
+    /* position: fixed; */
+    top: 40px;
+    left: 10px;
+    width: 5px;
+    height: 5px;
+    font-size: 40px;
+
+
+    /* border: 1px solid #000; */
+    /* border-radius: 50%; */
+    /* background-color: #fff;
+    padding: 0; */
+    /* 버튼 기본패딩 없앰 */
+
+    cursor: pointer;
+    /* 마우스 오버시 손가락모양 */
+  }
+
+
+  /* 
+.ham>a .ham 클래스 안에 있는 a
+div.ham .ham 클래스가 적용되어있는 div
+
+*/
+  div.ham {
+    display: inline;
+
+  }
+}
