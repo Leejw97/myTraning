@@ -43,6 +43,10 @@
   text-decoration: underline;      
 }
 
+.ham{
+  display: none;
+}
+
 #cont {
   max-width: 1300px;
   padding-left: 275px;

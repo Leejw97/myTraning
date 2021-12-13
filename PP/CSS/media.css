@@ -33,19 +33,15 @@
 
 
   .ham {
-    /* position: fixed; */
-    top: 40px;
+    position: absolute;
+    top: 30px;
     left: 10px;
     width: 5px;
     height: 5px;
-    font-size: 40px;
-
-
-    /* border: 1px solid #000; */
-    /* border-radius: 50%; */
-    /* background-color: #fff;
-    padding: 0; */
-    /* 버튼 기본패딩 없앰 */
+    font-size: 55px;
+    font-weight: lighter;
+    
+    /* background: white; */
 
     cursor: pointer;
     /* 마우스 오버시 손가락모양 */
