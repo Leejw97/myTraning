@@ -1,3 +1,7 @@
+// window.addEventListener("load"()=>{
+
+// });
+
 function showMenu(){
 
   // 함수호출확인
