@@ -63,6 +63,10 @@
   outline: 1px solid
 }
 
+.top {
+  padding-bottom: 50px;
+}
+
 .top img {
   padding-top: 55px;
   height: 210px;
@@ -75,9 +79,11 @@
 
 .cont1 img {
   background-size: 100% 100%;
-  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 30px;
   margin: 0 auto; 
   width: 100%;
+  
 }
 
 

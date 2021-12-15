@@ -66,8 +66,9 @@ div.ham .ham 클래스가 적용되어있는 div
   left: -100%;
   width: 295px;
   height: 100%;
-  /* 보이는 화면에 꽉참 */
   background-color: white;
+  /* 햄버거 버튼을 덮고 나옴 */
+  z-index: 999;
 
   /* 트랜지션: 속시이지 */
   transition: left .6s ease-in-out;
