@@ -1,10 +1,10 @@
 @charset "utf-8";
 @import url(./common.css);
 
-.ibx {
+/* .ibx {
   max-width: 1300px;
   margin: 0 auto;
-}
+} */
 
 .wrap {
   max-width: 1657px;
@@ -52,9 +52,9 @@
   padding-left: 275px;
 }
 
-.smenu a {
+/* .smenu a {
   text-decoration: none;
-}
+} */
 
 .img {
   height: 30vh;
@@ -83,10 +83,7 @@
   padding-bottom: 30px;
   margin: 0 auto; 
   width: 100%;
-  
 }
-
-
 
 .a1 {
   padding: 90px 0 20px;
