@@ -23,27 +23,27 @@
   /* background-color: rgb(255, 181, 181); */
 }
 
-#side ul li:first-child{
+#side ul li:first-child {
   margin-bottom: 35px;
 }
 
-#side ul li:last-child{
+#side ul li:last-child {
   margin-top: 50px;
 }
 
-#side ul li{
-  padding-bottom: 10px;       
+#side ul li {
+  padding-bottom: 10px;
 }
 
-#side ul li a{
-  color: black;            
+#side ul li a {
+  color: black;
 }
 
-#side ul li a:hover{
-  text-decoration: underline;      
+#side ul li a:hover {
+  text-decoration: underline;
 }
 
-.ham{
+.ham {
   display: none;
 }
 
@@ -81,7 +81,7 @@
   background-size: 100% 100%;
   padding-top: 20px;
   padding-bottom: 30px;
-  margin: 0 auto; 
+  margin: 0 auto;
   width: 100%;
 }
 
@@ -93,35 +93,24 @@ h1 {
   font-size: 22px;
 }
 
-/* .cont2
-.cont3{
-  height: 504px;
-  display: inline;
-} */
-
-.cont2 li,
-.cont3 li {
-  width: 32%;
-  margin-bottom: 80px;
-  
+p {
+  font-size: 11px;
 }
 
-.cont2 li img,
-.cont3 li img {
-  width:100%;
+.title h1 {
+  padding-bottom: 60px;
+  font-family: mal;
 }
 
-.cont2 ul,
-.cont3 ul {
-  display: flex;
-  justify-content: space-between
+.txt p {
+  text-align: center;
+  font-size: 11px;
 }
-
 
 .scbar::-webkit-scrollbar {
   /* 전체 스크롤바 크기변경 */
   width: 5px;
-} 
+}
 
 .scbar::-webkit-scrollbar-thumb {
   /* 스크롤바 */
@@ -144,4 +133,3 @@ h1 {
 /* flex-wrap: wrap;
 플렉스 줄바꿈
  */
-
