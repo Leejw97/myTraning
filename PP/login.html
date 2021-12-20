@@ -15,10 +15,10 @@
         <div id="side">
             <ul>
                 <li>
-                    <a href="#">LEEUM STORE</a>                 
+                    <a href="./pp.html">LEEUM STORE</a>                 
                 </li>
                 <li>
-                    <a href="#">PRODUCT</a>                 
+                    <a href="#">LOGIN</a>                 
                 </li>
                 <li>
                     <a href="#">EVENT</a>                 
@@ -35,7 +35,6 @@
         </div>
 
            <!-- 전체메뉴버튼 -->
-    <!-- <button class="ham" onclick="showMenu()">≡</button> -->
         
     <!-- 전체 네비게이션박스 -->
     <nav class="gnb">
@@ -43,10 +42,10 @@
        <div class="cbtn" onclick="showMenu()">×</div>
        <ul>
            <li>
-               <a href="#">LEEUM STORE</a>
+               <a href="./pp.html">LEEUM STORE</a>
            </li>
            <li>
-               <a href="#">PRODUCT</a>
+               <a href="#">LOGIN</a>
            </li>
            <li>
                <a href="#">EVENT</a>
@@ -66,9 +65,12 @@
         <div id="cont">
             <header class="top">
                 <div class="ham" onclick="showMenu()">≡</div>
-                    <a href="#">
+                    <a href="./pp.html">
                         <img src="./images/logo-main.gif" alt="홈화면">
-                    </a>
+                    </a>           
+                    <!-- <a href="#">
+                        <div class="log"></div>
+                    </a> -->                  
             </header>
           
         <div class="ltitle">
@@ -77,6 +79,7 @@
             </h2>
         </div>
 
+        <div id="conttitle">
         <div class="mtitle">
             <h2>MEMBER</h2>
         </div>
@@ -87,19 +90,12 @@
             <!-- 아이디 박스 -->
             <div class="minput">
                 <label for="mid">아이디</label>
-                <input type="text" name="mid" id="mid" maxlength="10" placeholder="아이디를 입력해주세요">
+                <input type="text" name="mid" id="mid" maxlength="10" placeholder="아이디">
             </div>
              <!-- 비밀번호박스 -->
              <div class="minput mi2">
                 <label for="mid">비밀번호</label>
-                <input type="text" name="mpw" id="mpw" maxlength="10" placeholder="비밀번호를 입력해주세요">
-                </div>
-                <!-- 버튼영역 -->
-                <div class="btnbx1">
-                    <input type="submit" id="sbtn" value="GUEST">
-                </div>
-                <div class="btnbx2">
-                    <input type="submit" id="sbtn" value="LOGIN">
+                <input type="text" name="mpw" id="mpw" maxlength="10" placeholder="패스워드">
                 </div>
                  <!-- 기타링크 -->
                  <div class="addbx">
@@ -107,11 +103,23 @@
                         <input type="checkbox" id="chkbx" name="chkbx">
                         <label for ="chkbx">아이디저장</label>
                     </span>
-                </section>
-                    <a href="#">아이디찾기</a> | 
-                    <a href="#">비밀번호찾기</a> | 
-                    <a href="#">회원가입</a>  
+                <!-- 버튼영역 -->
+                <div class="mbtn">
+                <div class="btnbx1">
+                    <input type="submit" id="sbtn" value="GUEST">
                 </div>
+                <div class="btnbx2">
+                    <input type="submit" id="sbtn" value="LOGIN">
+                </div>
+                </div>
+        </section>
+                
+                <div class="find">
+                    <a href="#">아이디찾기</a> 
+                    <a href="#">비밀번호찾기</a> 
+                    <a href="#">회원가입</a>
+                </div>  
+            </div>
             </form>
         </div>
-
+    </div>

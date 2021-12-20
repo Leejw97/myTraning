@@ -7,8 +7,8 @@
 
 function showMenu(){
 
-  var ham =
-  document.querySelector(".ham");
+  // var ham =
+  // document.querySelector(".ham");
 
   // 1.변경대상 선정 : .gnb
   // 선택요소를 gnb 라는 이름의 변수에 담는다
