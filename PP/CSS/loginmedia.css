@@ -2,7 +2,7 @@
 
 
 /* 모바일 기분 960px 이하 시작 */
-@media only screen and (max-width:960px) {
+@media only screen and (max-width:450px) {
 
   .wrap {
     padding: 0;
